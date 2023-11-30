@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://dhnbh4vuq50wt"]
+
+[ext_resource type="Script" path="res://cookie_node.gd" id="1_oav7i"]
+[ext_resource type="Texture2D" uid="uid://niv27evqb5ii" path="res://Art Assetts/Cookie.jpg" id="2_dn8fb"]
+
+[node name="CookieNode" type="Node2D"]
+position = Vector2(216, 576)
+script = ExtResource("1_oav7i")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Cookie" type="TextureButton" parent="CanvasLayer"]
+offset_left = 10.0
+offset_top = 530.0
+offset_right = 370.0
+offset_bottom = 890.0
+scale = Vector2(0.3, 0.3)
+texture_normal = ExtResource("2_dn8fb")
+metadata/_edit_use_anchors_ = true
+
+[node name="CookieCount" type="Label" parent="CanvasLayer/Cookie"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.185
+anchor_top = 0.074
+anchor_right = 4.889
+anchor_bottom = 0.222
+offset_left = -26.6
+offset_top = -26.64
+offset_right = 26.9598
+offset_bottom = 69.888
+theme_override_font_sizes/font_size = 75
+text = "0"
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="CanvasLayer/Cookie" to="." method="_on_cookie_pressed"]
