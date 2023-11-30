@@ -1,0 +1,42 @@
+[gd_scene load_steps=7 format=3 uid="uid://bjva1gaufk0ok"]
+
+[ext_resource type="Texture2D" uid="uid://v7m3avnq7egq" path="res://Art Assetts/Bakery.jpg" id="1_p70h1"]
+[ext_resource type="Texture2D" uid="uid://bqccyewtwgcd0" path="res://Art Assetts/glyphid.jpg" id="2_br6m1"]
+[ext_resource type="Texture2D" uid="uid://ctqsk7ral8cw0" path="res://Art Assetts/Sayorifumo.jpg" id="3_7whk2"]
+[ext_resource type="Texture2D" uid="uid://cd5spaxu13dnh" path="res://Art Assetts/Exitbutton.png" id="4_wihba"]
+[ext_resource type="Script" path="res://exit.gd" id="5_5cmph"]
+[ext_resource type="AudioStream" uid="uid://w4p6llj5tdf7" path="res://Spider-Man 2 PS2 - Pizza Theme.mp3" id="6_shk3u"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Bakery" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(0.850812, 0.61597)
+texture = ExtResource("1_p70h1")
+
+[node name="Sayorifumo" type="Sprite2D" parent="."]
+position = Vector2(503.273, 55.8436)
+scale = Vector2(0.103242, 0.0761793)
+skew = -0.44855
+texture = ExtResource("3_7whk2")
+
+[node name="Glyphid" type="Sprite2D" parent="."]
+position = Vector2(599.205, 416)
+scale = Vector2(0.869817, 0.569007)
+skew = -0.897099
+texture = ExtResource("2_br6m1")
+
+[node name="exit" type="TextureButton" parent="."]
+offset_left = -32.0
+offset_top = -96.0
+offset_right = 268.0
+offset_bottom = 204.0
+texture_normal = ExtResource("4_wihba")
+script = ExtResource("5_5cmph")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_shk3u")
+volume_db = -20.0
+autoplay = true
+
+[connection signal="pressed" from="exit" to="exit" method="_on_pressed"]
