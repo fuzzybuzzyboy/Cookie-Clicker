@@ -1,0 +1,29 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1701261751
+back_ground.tscn::PackedScene::3061518955968088554::1701204099::0::1::::<><>::uid://v7m3avnq7egq::::res://Art Assetts/Bakery.jpg<>uid://bqccyewtwgcd0::::res://Art Assetts/glyphid.jpg<>uid://ctqsk7ral8cw0::::res://Art Assetts/Sayorifumo.jpg<>uid://cd5spaxu13dnh::::res://Art Assetts/Exitbutton.png<>res://exit.gd<>uid://w4p6llj5tdf7::::res://Spider-Man 2 PS2 - Pizza Theme.mp3
+cookie_node.gd::GDScript::-1::1701191268::0::1::::<>Node2D<>::
+cookie_node.tscn::PackedScene::7677495641447753235::1701204099::0::1::::<><>::res://cookie_node.gd<>uid://niv27evqb5ii::::res://Art Assetts/Cookie.jpg
+Data.gd::GDScript::-1::1701191024::0::1::::<>Node<>::
+exit.gd::GDScript::-1::1700946886::0::1::::<>TextureButton<>::
+export_presets.cfg::TextFile::-1::1701203938::0::1::::<><>::
+icon.svg::CompressedTexture2D::6210358438969369493::1700666327::1701196110::1::::<><>::
+main_scene.tscn::PackedScene::971289862428077874::1701204099::0::1::::<><>::uid://bjva1gaufk0ok::::res://back_ground.tscn<>uid://dhnbh4vuq50wt::::res://cookie_node.tscn<>uid://dpk4x07y53qk5::::res://shop.tscn
+Shop.gd::GDScript::-1::1701193570::0::1::::<>Node2D<>::
+shop.tscn::PackedScene::8234541712889581298::1701204099::0::1::::<><>::res://Shop.gd<>uid://d3w656holodu1::::res://Art Assetts/soapbutton.png<>uid://rdgeq1dyef3u::::res://Art Assetts/Soapmenu.png<>uid://wcdjsswimdbp::::res://Art Assetts/UwUbutton.png<>uid://c8iwjerkmluhi::::res://Art Assetts/OwObutton.png<>uid://c1wvbba05qfn8::::res://Art Assetts/-w-button.png
+Spider-Man 2 PS2 - Pizza Theme.mp3::AudioStreamMP3::1604988224606454190::1700598268::1701186529::1::::<><>::
+::res://Art Assetts/::1701196055
+-w-button.png::CompressedTexture2D::6644444508906320751::1700724689::1701186432::1::::<><>::
+Bakery.jpg::CompressedTexture2D::1540804443725324748::1700598277::1701186433::1::::<><>::
+Cookie.jpg::CompressedTexture2D::930294950512448952::1700598278::1701186432::1::::<><>::
+cookie.png::CompressedTexture2D::8373319565456520114::1701191073::1701191077::1::::<><>::
+Exitbutton.png::CompressedTexture2D::5046458960175521549::1700598278::1701186432::1::::<><>::
+glyphid.jpg::CompressedTexture2D::3513735475420997623::1700598278::1701186432::1::::<><>::
+icon1.svg::CompressedTexture2D::1859356110970106577::1700666327::1701196055::1::::<><>::
+MenuButton.png::CompressedTexture2D::2715638752492506037::1700598278::1701186432::1::::<><>::
+OwObutton.png::CompressedTexture2D::7106940312285676894::1700598278::1701186432::1::::<><>::
+Sayorifumo.jpg::CompressedTexture2D::6140571911407498629::1700598278::1701186432::1::::<><>::
+soapbutton.png::CompressedTexture2D::9171903423815267694::1700601794::1701186432::1::::<><>::
+Soapmenu.png::CompressedTexture2D::1199775800948007648::1700602304::1701186432::1::::<><>::
+startbutton.png::CompressedTexture2D::5605237658769987347::1700598278::1701186432::1::::<><>::
+UwUbutton.png::CompressedTexture2D::1548482512905802717::1700598278::1701186432::1::::<><>::
+::res://Realeses/::1701195525
