@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://w4p6llj5tdf7"
+path="res://.godot/imported/Spider-Man 2 PS2 - Pizza Theme.mp3-d355a8a7faddd43ced556de51456cb69.mp3str"
+
+[deps]
+
+source_file="res://Spider-Man 2 PS2 - Pizza Theme.mp3"
+dest_files=["res://.godot/imported/Spider-Man 2 PS2 - Pizza Theme.mp3-d355a8a7faddd43ced556de51456cb69.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
