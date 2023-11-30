@@ -1,0 +1,18 @@
+RSRC                    PackedScene            ÿÿÿÿÿÿÿÿ                                                  resource_local_to_scene    resource_name 	   _bundled     script        Script    res://cookie_node.gd ÿÿÿÿÿÿÿÿ
+   Texture2D    res://Art Assetts/Cookie.jpg ¸U¢Té      local://PackedScene_vpyvg C         PackedScene          	         names "      
+   CookieNode 	   position     script     Node2D    CanvasLayer     Cookie    offset_left 
+   offset_top 
+   offset_right    offset_bottom    scale    texture_normal    metadata/_edit_use_anchors_    TextureButton    CookieCount    layout_mode    anchors_preset    anchor_left 
+   anchor_top 
+   anchor_right    anchor_bottom $   theme_override_font_sizes/font_size    text    vertical_alignment    Label    _on_cookie_pressed    pressed    	   variants       
+     XC  D                A    €D     ¹C    €^D
+   š™™>š™™>                        ÿÿÿÿ   ®—?   P—=   °rœ@   øSc>   ÍÌÔÁ   ¸ÕÁ   ¬­×A   ¨Æ‹B   K         0    
+   node_count             nodes     J   ÿÿÿÿÿÿÿÿ       ÿÿÿÿ                                  ÿÿÿÿ               
+      ÿÿÿÿ                       	      
+      
+                              ÿÿÿÿ      	      
+      
+            
+                            	                     	                
+   conn_count             conns                                    
+   node_paths              editable_instances              version             RSRC
