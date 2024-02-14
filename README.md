@@ -1,4 +1,4 @@
 # Cookie-Clicker
 Cookie clicker using Godot engine
 
-shitty code that you need to turn into a realease anyways, i might just delete this soon.
+all the assests weren't made by me but my friend.
